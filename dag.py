@@ -33,4 +33,4 @@ with DAG(
         html_content='<p>Your Airflow job has finished.</p>'
     )
 
-task_1 -> Email
+task_1 >> Email
